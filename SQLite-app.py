@@ -11,7 +11,7 @@ if not os.path.exists(caminho_db):
 
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS restaurantes (
-            id INTEGER PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
             nome VARCHAR(200),
             categoria VARCHAR(200),
             ativo INTEGER DEFAULT 0 -- 0 = False, 1 = True        
