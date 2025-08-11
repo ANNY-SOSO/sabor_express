@@ -18,7 +18,7 @@ if not os.path.exists(caminho_db):
         )
     ''')
 
-    # restaurantes padroes
+    # restaurantes padrões
     restaurantes_padroes = [{
                     'nome': 'Praça',
                     'categoria': 'Japonesa', 
@@ -58,10 +58,10 @@ def exibir_nome_do_programa():
 ██████╔╝██║░░██║██████╦╝╚█████╔╝██║░░██║  ███████╗██╔╝╚██╗██║░░░░░██║░░██║███████╗██████╔╝██████╔╝
 ╚═════╝░╚═╝░░╚═╝╚═════╝░░╚════╝░╚═╝░░╚═╝  ╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═════╝░╚═════╝░\n""")
     
-# Dicionario Global sobre os restaurantes com nome (str), categoria (str) e ativo (true or false)
+# Dicionário Global sobre os restaurantes com nome (str), categoria (str) e ativo (true or false)
 restaurantes = []
 
-# Function para carregar os restaurantes do DB para o Dicionario Global
+# Function para carregar os restaurantes do DB para o Dicionário Global
 def carregar_restaurantes():
     restaurantes.clear()
 
